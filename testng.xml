@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--
+    testng.xml
+    TestNG Suite Configuration for Cucumber Framework
+    Run command: mvn test
+-->
+<suite name="VtigerCRM_CucumberSuite" verbose="1">
+
+    <test name="CucumberTests">
+        <classes>
+            <class name="com.vtiger.runner.testRunner"/>
+        </classes>
+    </test>
+
+</suite>
